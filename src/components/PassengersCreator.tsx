@@ -4,6 +4,7 @@ import PassengersForm from "./PassengersForm";
 
 const PassengersCreator = () => {
   const navigate = useNavigate();
+
   const handleCreatePassenger = (passenger: Passenger) => {
     fetch("http://localhost:5000/passengers", {
       method: "POST",

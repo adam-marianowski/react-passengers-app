@@ -1,3 +1,29 @@
 {
-  "passengers": []
+  "passengers": [
+    {
+      "id": "2501345315239",
+      "name": "Passenger1",
+      "checkedIn": true,
+      "checkInDate": "2024-08-31",
+      "baggage": "hold-only"
+    },
+    {
+      "id": "6832353107390",
+      "name": "Passenger2"
+    },
+    {
+      "id": "1668198512870",
+      "name": "Passenger3"
+    }
+  ],
+  "alerts": [
+    {
+      "type": "warning",
+      "content": "server maintenance 4th of September 2024 10:30ETC. During this time some features may be not available. We are sorry for the inconvenience"
+    },
+    {
+      "type": "primary",
+      "content": "Thank you for using our service! If you need any assistance don't hesitate to contact our support team."
+    }
+  ]
 }

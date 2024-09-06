@@ -4,6 +4,6 @@ export interface Passenger {
   id: string;
   name: string;
   checkedIn: boolean;
-  checkInDate: string;
-  baggage: Baggage;
+  checkInDate?: string;
+  baggage?: Baggage;
 }
