@@ -1,0 +1,39 @@
+{
+  "passengers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "checkedIn": true,
+      "checkInDate": "2023-10-01",
+      "baggage": "hand-only"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "checkedIn": false,
+      "checkInDate": null,
+      "baggage": "hold-only"
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "checkedIn": true,
+      "checkInDate": "2023-10-02",
+      "baggage": "hand-hold"
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "checkedIn": false,
+      "checkInDate": null,
+      "baggage": "none"
+    },
+    {
+      "id": "5",
+      "name": "Charlie Davis",
+      "checkedIn": true,
+      "checkInDate": "2023-10-03",
+      "baggage": "hand-only"
+    }
+  ]
+}
